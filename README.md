@@ -33,4 +33,19 @@
 
 <p>NOTE:<i>Kalian membutuhkan mingw untuk menjadi compile codinganya</i></p>
 
+# ***C++ Template***
+```
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+  cout << endl;
+  cout << "Hello World" << endl;
+  cout << endl;
+
+  return 0;
+}
+```
 <p>Terima kasih, Semoga bermanfaat bagi kalian semua 😁</p>

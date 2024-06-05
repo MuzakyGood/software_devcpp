@@ -24,7 +24,7 @@ int main(int argc, char const *argv[]){
 
     cout << "\n" << resultextraplus << "\n";
     
-    cout << "want open MSpaint ?" << "\n";
+    cout << "want open MSpaint ?";
     cin >> userinput;
     if (userinput == "yes" || userinput == "Yes"){
         

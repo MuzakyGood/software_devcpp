@@ -26,7 +26,7 @@ int main(int argc, char const *argv[]){
     
     cout << "want open MSpaint ?" << "\n";
     cin >> userinput;
-    if (userinput == "yes" || "Yes"){
+    if (userinput == "yes" || userinput == "Yes"){
         
         openpaint();
 

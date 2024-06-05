@@ -34,7 +34,7 @@
 <p>NOTE:<i>Kalian membutuhkan mingw untuk menjadi compile codinganya</i></p>
 
 # ***C++ Template***
-```
+```cpp
 #include <iostream>
 
 using namespace std;

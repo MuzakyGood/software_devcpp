@@ -4,6 +4,8 @@
 #include "exitout.hpp"
 #include "extravoid.hpp"
 #include "openpain.hpp"
+#include "opennotepad.hpp"
+#include "openexplore.hpp"
 
 using namespace std;
 int callfirst(){
@@ -20,19 +22,42 @@ int main(int argc, char const *argv[]){
 
     cout << "This result math with void: " << "\n";
     cout << resultvoid1 << "\n" << "\n";
+    cout << "=========================================================" << "\n";
     newfile();
-
+    cout << "=========================================================" << "\n";
     cout << "\n" << resultextraplus << "\n";
+    cout << "=========================================================" << "\n";
     
     cout << "want open MSpaint ?";
     cin >> userinput;
-    if (userinput == "yes" || userinput == "Yes"){
+    if (userinput == "yes" || userinput == "Yes" || userinput == "Iya" || userinput == "iya"){
         
         openpaint();
 
     } else{
         cout << "Okey I Am understand" << "\n";
     }
+    cout << "=========================================================" << "\n";
+    cout << "want open Notepad ?";
+    cin >> userinput;
+    if (userinput == "yes" || userinput == "Yes" || userinput == "Iya" || userinput == "iya"){
+        
+        opennotepad();
+
+    } else{
+        cout << "Okey I Am understand" << "\n";
+    }
+    cout << "=========================================================" << "\n";
+    cout << "want open explorer ?";
+    cin >> userinput;
+    if (userinput == "yes" || userinput == "Yes" || userinput == "Iya" || userinput == "iya"){
+        
+        openexplorer();
+
+    } else{
+        cout << "Okey I Am understand" << "\n";
+    }
+    cout << "=========================================================" << "\n";
 
     closewindow();
     system("cls");

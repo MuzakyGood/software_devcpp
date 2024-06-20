@@ -1,11 +1,11 @@
 #include <iostream>
 #include <string>
-#include "voidnewfile.hpp"
-#include "exitout.hpp"
-#include "extravoid.hpp"
-#include "openpain.hpp"
-#include "opennotepad.hpp"
-#include "openexplore.hpp"
+#include "include/voidnewfile.hpp"
+#include "include/exitout.hpp"
+#include "include/extravoid.hpp"
+#include "include/openpain.hpp"
+#include "include/opennotepad.hpp"
+#include "include/openexplore.hpp"
 
 using namespace std;
 int callfirst(){

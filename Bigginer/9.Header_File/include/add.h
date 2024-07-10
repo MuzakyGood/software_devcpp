@@ -6,15 +6,10 @@
 */ 
 #ifndef ADD_H // This example old guard in C++
 #define ADD_H
-#include <iostream>
+
 int add(){
 
     return 4;
 }
 
 #endif
-
-int plus(){
-
-    return 4 + add();
-}

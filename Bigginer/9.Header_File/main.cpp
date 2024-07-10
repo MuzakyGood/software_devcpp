@@ -5,6 +5,7 @@
 */
 #include <iostream>
 #include "include/add.h"
+#include "include/plus.h"
 
 int main(int argc, char const *argv[]){
 

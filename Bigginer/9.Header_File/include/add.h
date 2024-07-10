@@ -7,9 +7,9 @@
 #ifndef ADD_H // This example old guard in C++
 #define ADD_H
 
-int add(){
+int add(int y){
 
-    return 4;
+    return y;
 }
 
 #endif

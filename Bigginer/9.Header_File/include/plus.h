@@ -1,6 +1,10 @@
 #include "add.h"
 
-int plus(){
+#ifndef PLUS_h
+#define PLUS_H
+int plus(int x, int y){
 
-    return 4 + add();
+    return x + add(y); // Another call function
 }
+
+#endif

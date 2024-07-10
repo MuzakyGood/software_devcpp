@@ -19,11 +19,9 @@ int main(int argc, char const *argv[]){
     std::cout << "Input Num1: ";
     std::cin >> x;
     Beep(2000, 500);
-    std::cout << "\n";
     std::cout << "Input Num2: ";
     std::cin >> y;
     Beep(2000, 500);
-    std::cout << "\n";
     
     std::cout << "Result: " << plus(x, y) << '\n';
     Beep(1000, 1000);

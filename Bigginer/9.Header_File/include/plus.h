@@ -1,6 +1,6 @@
 #include "add.h"
 
-#ifndef PLUS_h
+#ifndef PLUS_H
 #define PLUS_H
 int plus(int x, int y){
 

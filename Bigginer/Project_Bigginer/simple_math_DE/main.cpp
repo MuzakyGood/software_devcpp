@@ -3,8 +3,8 @@
 
 int main(){
 
-    MATHPLUS tab1;
-    tab1.plus();
+    MATHPLUS dat1;
+    dat1.plus();
 
     return 0;
 }

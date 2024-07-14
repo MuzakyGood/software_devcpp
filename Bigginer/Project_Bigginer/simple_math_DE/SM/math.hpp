@@ -7,13 +7,10 @@ class MATHPLUS{
     int x;
     int y;
     int result;
-
+    
         void plus();
-
         void min();
-
         void multi();
-
         void share();
 };
 

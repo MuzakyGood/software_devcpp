@@ -3,8 +3,7 @@
 
 int main(){
 
-    MATHPLUS dat1;
-    dat1.plus();
+    PLUS data1 = PLUS(40, 20);
 
     return 0;
 }

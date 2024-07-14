@@ -1,17 +1,14 @@
 #ifndef MATH_HPP
 #define MATH_HPP
 
-class MATHPLUS{
+class PLUS{
     public:
 
     int x;
     int y;
     int result;
     
-        void plus();
-        void min();
-        void multi();
-        void share();
+    PLUS(int x, int y);
 };
 
 #endif 

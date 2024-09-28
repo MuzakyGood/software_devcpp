@@ -15,6 +15,7 @@ int main(){
     std::cout << "penulisan string bisa juga dengan petik satu"<< endl;
     std::cout << "===============================" << endl;
     std::cout << "" << endl;
+    std::cout << "Saya akan lanjut belajar" << "\n";
     return 0;
 }
 
